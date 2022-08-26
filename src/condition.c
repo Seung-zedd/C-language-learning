@@ -116,6 +116,6 @@ int main(void)
 	default: printf("학생이 아닌가봐요\n");
 
 	}
-
+	//결론:변수의 범위가 크면 -> if~else문, 아니면 switch문
 	return 0;
 }
