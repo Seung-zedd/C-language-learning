@@ -59,7 +59,7 @@ int main_loop(void)
 		printf("\n");
 	}
 	
-	//프로젝트:피라미드 쌓기:2n+1로 진행, floor가 5층이면 2*floor +1
+	//프로젝트:피라미드 쌓기:2n+1로 진행, floor가 5층이면 2*i +1
 
 	printf("몇 층을 쌓겠느냐?: ");
 
