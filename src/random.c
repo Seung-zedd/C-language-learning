@@ -3,17 +3,17 @@
 
 int main_random(void)
 {
-	//srand(time(NULL)); //³­¼ö ÃÊ±âÈ­
+	//srand(time(NULL)); //ë‚œìˆ˜ ì´ˆê¸°í™”
 	//int num = rand() % 3 + 1; //0 ~ 2 -> 1 ~ 3
 
-	printf("³­¼ö ÃÊ±âÈ­ ÀÌÀü..\n");
+	printf("ë‚œìˆ˜ ì´ˆê¸°í™” ì´ì „..\n");
 	for (int i = 0; i < 10; i++)
 	{
 		printf("%d ", rand() % 10);
 	}
 
 	srand(time(NULL));
-	printf("\n\n³­¼ö ÃÊ±âÈ­ ÀÌÈÄ..\n");
+	printf("\n\në‚œìˆ˜ ì´ˆê¸°í™” ì´í›„..\n");
 	for (int i = 0; i < 10; i++)
 	{
 		printf("%d ", rand() % 10);
