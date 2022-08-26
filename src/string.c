@@ -2,31 +2,31 @@
 
 int main(void)
 {
-	//¹®ÀÚ vs ¹®ÀÚ¿­
-	/*char c = 'A';
-	printf("%c\n", c);*/
+	//ë¬¸ì vs ë¬¸ìì—´
+	char c = 'A';
+	printf("%c\n", c);
 
-	//¹®ÀÚ¿­ ³¡¿¡´Â Null string('\0')ÀÌ µé¾î°¡¹Ç·Î, str + 1À» ¹è¿­Å©±â
-	/*char str[7] = "coding";
-	printf("%s\n", str);*/
+	//ë¬¸ìì—´ ëì—ëŠ” Null string('\0')ì´ ë“¤ì–´ê°€ë¯€ë¡œ, str + 1ì„ ë°°ì—´í¬ê¸°
+	char str[7] = "coding";
+	printf("%s\n", str);
 
-	/*char str[] = "coding";
+	char str[] = "coding";
 
 	for (int i = 0; i < sizeof(str); i++)
 	{
 		printf("%c\n", str[i]);
-	}*/
+	}
 
-	/*char str[] = "³ªµµÄÚµù";
+	char str[] = "ë‚˜ë„ì½”ë”©";
 	printf("%s\n", str);
 	printf("%d\n", sizeof(str));
-	*/
-	//¿µ¾î 1±ÛÀÚ: 1byte, 
-	//ÇÑ±Û 1±ÛÀÚ: 2byte, 
-	//char Å©±â:  1byte
+	
+	//ì˜ì–´ 1ê¸€ì: 1byte, 
+	//í•œê¸€ 1ê¸€ì: 2byte, 
+	//char í¬ê¸°:  1byte
 	
 	for (int i = 0; i < 128; i++)
-		printf("¾Æ½ºÅ°ÄÚµå Á¤¼ö %d: %c\n", i, i);
+		printf("ì•„ìŠ¤í‚¤ì½”ë“œ ì •ìˆ˜ %d: %c\n", i, i);
 
 	return 0;
 }
